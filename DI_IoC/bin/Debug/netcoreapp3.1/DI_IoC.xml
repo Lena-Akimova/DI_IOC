@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DI_IoC</name>
+    </assembly>
+    <members>
+        <member name="T:DI_IoC.ISHeduleManager">
+            <summary>
+            Хотим создать расписание 
+            </summary>
+        </member>
+        <member name="M:DI_IoC.SheduleManager.GetShedule">
+            <summary>
+            Создание расписания осоюого вида
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DI_IoC.SheduleViewer">
+            <summary>
+            Для отображения расписания 
+            Если поменяется код менеджера или появится много разных менеджеров 
+            чтобы не надо было менять вьюер тоже
+            </summary>
+        </member>
+        <member name="M:DI_IoC.SheduleViewer.#ctor(DI_IoC.ISHeduleManager)">
+            <summary>
+            Constructor injection
+            </summary>
+            <param name="man">Конкретная реализация менеджера</param>
+        </member>
+    </members>
+</doc>

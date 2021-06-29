@@ -6,7 +6,8 @@ namespace DI_IoC
     {
         static void Main(string[] args)
         {
-            
+            SheduleViewer view = new SheduleViewer(new SheduleManager());
+            view.ViewShadule();
         }
     }
 
@@ -58,6 +59,7 @@ namespace DI_IoC
         public void ViewShadule()
         {
             _man.GetShedule();
+            Console.WriteLine("Отображенеи расписания типа "+ _man.GetType());
         }
     }
 

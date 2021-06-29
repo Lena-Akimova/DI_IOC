@@ -11,3 +11,4 @@ C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreap
 C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.dll
 C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.pdb
 C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.xml
