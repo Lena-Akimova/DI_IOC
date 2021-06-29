@@ -1,0 +1,13 @@
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.exe
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.deps.json
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.runtimeconfig.json
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.runtimeconfig.dev.json
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.dll
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\bin\Debug\netcoreapp3.1\DI_IoC.pdb
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.dll
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.pdb
+C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\obj\Debug\netcoreapp3.1\DI_IoC.genruntimeconfig.cache
