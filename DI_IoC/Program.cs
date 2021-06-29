@@ -1,12 +1,31 @@
-﻿using System;
+﻿using Ninject;
+using Ninject.Modules;
+using System;
+using System.Numerics;
+using System.Threading;
 
 namespace DI_IoC
 {
     class Program
     {
+        /// <summary>
+        /// создаем нинжект контеинер передаем конфигурацию
+        /// теперь при создании шедулвью нужный привязанный экземпляр интерфейса менеджера будет подставлен в констр вью
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            SheduleViewer view = new SheduleViewer(new SheduleManager());
+            //SheduleViewer view = new SheduleViewer(new SheduleManager());
+            //view.ViewShadule();
+            BigInteger i = 0;
+            while (i <= 89458)
+            { Console.WriteLine(i);
+                i++;
+            }
+
+            
+            IKernel kernel = new StandardKernel(new ConfigModule());
+            SheduleViewer view = kernel.Get<SheduleViewer>();
             view.ViewShadule();
         }
     }
@@ -62,6 +81,19 @@ namespace DI_IoC
             Console.WriteLine("Отображенеи расписания типа "+ _man.GetType());
         }
     }
+    /// <summary>
+    /// везде где нужен айшедул менеджер будет поставляться через контейнер этот шедул мжнеджер
+    /// </summary>
+    class ConfigModule: NinjectModule
+    {
+        public override void Load()
+        {
+            Bind<ISHeduleManager>().To<SheduleManager>();
+            Bind<SheduleViewer>().ToSelf();
+        }
+    }
+
+
 
 
 

@@ -4,6 +4,13 @@
         <name>DI_IoC</name>
     </assembly>
     <members>
+        <member name="M:DI_IoC.Program.Main(System.String[])">
+            <summary>
+            создаем нинжект контеинер передаем конфигурацию
+            теперь при создании шедулвью нужный привязанный экземпляр интерфейса менеджера будет подставлен в констр вью
+            </summary>
+            <param name="args"></param>
+        </member>
         <member name="T:DI_IoC.ISHeduleManager">
             <summary>
             Хотим создать расписание 
@@ -27,6 +34,11 @@
             Constructor injection
             </summary>
             <param name="man">Конкретная реализация менеджера</param>
+        </member>
+        <member name="T:DI_IoC.ConfigModule">
+            <summary>
+            везде где нужен айшедул менеджер будет поставляться через контейнер этот шедул мжнеджер
+            </summary>
         </member>
     </members>
 </doc>
