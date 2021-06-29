@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Пользователь\source\repos\DI_IoC\DI_IoC\DI_IoC.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
